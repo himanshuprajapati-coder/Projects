@@ -37,18 +37,6 @@ body {
     cursor: pointer;
 }
 
-.image{
-    position: relative;
-    height: 90vh;
-}
-
-.image img{
-    position: absolute;
-    top: 45%;
-    left: 64.6%;
-    transform: translate(-50%, -50%);
-    height: 70vh;
-}
 
 .main{
     position: absolute;
@@ -83,4 +71,18 @@ body {
 
 .num{
     margin: 10px;
+}
+    
+.image{
+    position: relative;
+    height: 90vh;
+}
+
+.image img{
+    position: absolute;
+    top: 45%;
+    left: 64.6%;
+    transform: translate(-50%, -50%);
+    height: 70vh;
+    filter:contrast(2)
 }
