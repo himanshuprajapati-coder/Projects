@@ -58,6 +58,29 @@ body {
 
 .text{
     position: relative;
-    top: 30%;
+    top: 25%;
     left: 20%;
+}
+
+.gen h3{
+    letter-spacing: 7px;
+    padding: 10px;
+}
+
+.name h1{
+    font-size: 125px;
+    padding: 5px;
+}
+
+.para{
+    width: 80%;
+    padding: 5px;
+}
+
+.para p{
+    line-height: 25px;
+}
+
+.num{
+    margin: 10px;
 }
