@@ -25,32 +25,51 @@ main{
 .nav{
     position: relative;
     height: 8%;
-    background-color: blue;
-    /* padding: 15px; */
+    margin-top: 10px;
 }
 
 .nav .menu{
     position: absolute;
     top: 25%;
     left: 2%;
-    background-color: red;
     height: 50%;
     width: 3.5%;
 }
 
+.box{
+    height: 100%;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.092);
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 6px;
+}
+
+.box i{
+    margin-top: 4px;
+    font-size: 20px;
+}
+
+
 .nav .logo{
     position: absolute;
     left: 40%;
-    background-color: red;
     height: 100%;
-    width: 20%;
+    width: 15%;
+}
+
+.image{
+    height: 100%;
+}
+
+.image img{
+    height: 80px;
 }
 
 .nav .dark{
     position: absolute;
     top: 25%;
     right: 2%;
-    background-color: red;
     height: 50%;
     width: 3.5%;
 }
@@ -58,7 +77,6 @@ main{
 .sec-nav{
     position: relative;
     height: 8%;
-    background-color: blue;
     width: 100%;
     top: 5%;
 }
@@ -66,19 +84,91 @@ main{
 .sec-nav .search{
     position: absolute;
     left: 2%;
-    background-color: red;
     height: 100%;
     width: 35%;
+}
+
+.inp{
+    position: relative;
+    margin: 10px;
+    height: 100%;
+}
+
+.inp input{
+    height: 60%;
+    width: 60%;
+    border: 2px solid transparent;
+    border-radius: 24px;
+    background-color: rgba(0, 0, 0, 0.166);
+}
+
+.inp input::placeholder{
+    position: absolute;
+    left: 12%;
+}
+
+.search-icon{
+    position: relative;
+    bottom: 100%;
+    top: -102%;
+    left: 4%;
+}
+
+.search-icon i{
+    font-size: 20px;
 }
 
 .sec-nav .filter-sec{
     position: absolute;
     right: 2%;
-    background-color: red;
     height: 100%;
     width: 30%;
 }
 
+.filter{
+    position: absolute;
+    left: 5%;
+    top: 14%;
+    height: 70%;
+    width: 50%;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.147);
+}
+
+.filter .txt{
+    position: relative;
+    top: 25%;
+    left: 10%;
+}
+
+.filter-icon{
+    position: relative;
+    left: 80%;
+    bottom: 21%;
+}
+
+.filter-icon{
+    font-size: 22px;
+}
+
+.sort{
+    position: relative;
+    top: 22%;
+}
+
+.sort .sort-icon{
+    position: absolute;
+    left: 65%;
+    background-color: rgba(0, 0, 0, 0.092);
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 6px;
+}
+
+.sort-icon i{
+    padding: 6px;
+}
 .card{
     position: relative;
     top: 10%;
