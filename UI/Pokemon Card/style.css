@@ -173,15 +173,20 @@ main{
 .card{
     position: relative;
     top: 10%;
+    right: 2%;
     height: 50%;
-    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 68px;
 }
 
 .card-1{
+    position: relative;
+    left: 5%;
     border: 2px solid black;
+    border-radius: 15px;
     height: 100%;
     width: 20%;
-    position: relative;
 }
 
 .card-1 .card-num{
@@ -218,7 +223,35 @@ main{
     font-size: 17px;
 }
 
-.card-1 .
+.card-1 .type-name{
+    position: absolute;
+    bottom: 2%;
+    left: 5%;
+    height: 7%;
+    width: 25%;
+    background-color: rgba(95, 244, 9, 0.293);
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.type-name .type{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.type-name .type-icon{
+    position: absolute;
+    bottom: 20%;
+    right: 8%;
+}
+
+.card-1 .next{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+
 
 .footer{
     background-color: red;
