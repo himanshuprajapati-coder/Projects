@@ -183,7 +183,7 @@ main{
 .card-1{
     position: relative;
     left: 5%;
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     height: 100%;
     width: 20%;
@@ -253,19 +253,56 @@ main{
 
 
 .footer{
-    background-color: red;
     position: absolute;
     bottom: 10%;
     left: 15%;
     height: 10%;
     width: 70%;
+    display: flex;
+gap: 70px;
+}
+
+.footbox{
+    position: relative;
+    width: 20%;
+    height: 100%;
+}
+
+.box-icon{
+    position: relative;
+    height: 50%;
+    width: 20%;
+    top: 0;
+    left: 0;
+    transform: translate(50%, 50%);
+}
+
+.footbox .title{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+
+.footbox .para{
+    position: absolute;
+    top: 42%;
+    left: 40%;
 }
 
 .sec-footer{
     position: absolute;
-    background-color: red;
     height: 10%;
     width: 20%;
-    bottom: 1%;
+    bottom: -2%;
     left: 40%;
+    opacity: 0.6;
+}
+
+.svg{
+    position: relative;
+    left: 25%;
+}
+
+.svg-txt p{
+    font-size: 14px;
 }
