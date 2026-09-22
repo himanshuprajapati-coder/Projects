@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 * {
     margin: 0;
@@ -11,44 +11,47 @@
     overflow: hidden;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
 }
 
-nav{
+nav {
     position: relative;
     height: 10vh;
     margin: 10px;
     padding: 10px;
 }
 
-nav .home{
+nav .home {
     position: absolute;
-    top: 16%;
+    top: 50%;
     left: 2%;
+    transform: translateY(-50%);
 }
 
-nav .menu{
+nav .menu {
     position: absolute;
-    top: 35%;
-    left: 35%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.menu ul li{
+.menu ul {
     display: flex;
     gap: 50px;
 }
 
-nav .icon{
+nav .icon {
     position: absolute;
     display: flex;
     gap: 20px;
-    top: 30%;
+    top: 50%;
     right: 2%;
+    transform: translateY(-50%);
 }
 
-.icon .box svg{
+.icon .box svg {
     height: 30px;
 }
-
