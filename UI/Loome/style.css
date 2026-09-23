@@ -55,3 +55,129 @@ nav .icon {
 .icon .box svg {
     height: 30px;
 }
+
+main{
+    position: relative;
+    height: 100%;
+}
+
+.left{
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+.first{
+    position: relative;
+    width: 100%;
+}
+.first .leaf-icon{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+
+.first .text{
+    position: relative;
+    left: 8%;
+}
+
+.text p{
+    font-size: 17px;
+    opacity: 0.6;
+}
+
+.sec{
+    position: relative;
+    width: 100%;
+}
+
+.sec .heading{
+    width: 70%;
+}
+
+.heading h1{
+    font-size: 80px;
+}
+
+.third{
+    position: relative;
+}
+
+.third hr{
+    width: 70px;
+    border: 1.5px solid black;
+}
+
+.fourth{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.fourth .para{
+    width: 90%;
+    opacity: 0.6;
+}
+
+.fifth{
+    position: relative;
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.fifth .colors{
+    display: flex;
+    gap: 5px;
+}
+
+.colors :nth-child(1){
+    height: 20px;
+    width: 20px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: #7b816a
+;
+}
+.colors :nth-child(2){
+    height: 20px;
+    width: 20px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: #e4dcd3;
+}
+.colors :nth-child(3){
+    height: 20px;
+    width: 20px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: #e1a8a7;
+}
+
+.sixth{
+    position: relative;
+    margin-top: 20px;
+}
+
+.detail{
+    margin-bottom: 5px;
+}
+
+.small-para{
+    width: 70%;
+}
+
+.small-para p{
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+.seventh{
+    margin-top: 20px;
+}
