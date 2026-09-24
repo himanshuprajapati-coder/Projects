@@ -180,4 +180,35 @@ main{
 
 .seventh{
     margin-top: 20px;
+    display: flex;
+    gap: 10px;
 }
+
+.seventh hr{
+    height: 100px;
+}
+
+.seventh .oc-icon .circle{
+    height: 60px;
+    width: 60px;
+}
+
+.center{
+    position: absolute;
+    left: 30%;
+    height: 100%;
+    width: 55%;
+}
+
+.center .center-name{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%) rotate(-90deg);
+    transform-origin: left center;
+}
+
+.naam p{
+    font-size: 20px;
+}
+
