@@ -202,13 +202,75 @@ main{
 
 .center .center-name{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 10%;
     transform: translateY(-50%) rotate(-90deg);
     transform-origin: left center;
 }
 
 .naam p{
+    font-size: 30px;
+}
+
+.center-img{
+    position: absolute;
+    left: 13%;
+}
+
+.big-image img{
+    border-radius: 20px;
+}
+
+.price{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 30px;
+    width: 120px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price p{
     font-size: 20px;
 }
 
+.rating{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 50px;
+    width: 160px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating p span{
+    font-size: 10px;
+}
+
+.add-cart{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #5f654e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-cart p{
+    font-size: 15px;
+}
