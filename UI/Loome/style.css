@@ -274,3 +274,20 @@ main{
 .add-cart p{
     font-size: 15px;
 }
+
+.bottom-box{
+    position: absolute;
+    left: 13%;
+    bottom: 12%;
+    height: 12%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-box hr{
+    transform: rotate(90deg);
+    width: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.122);
+}
