@@ -118,6 +118,7 @@ main{
     position: relative;
     margin-top: 10px;
     width: 100%;
+    margin-top: 30px;
 }
 
 .fourth .para{
@@ -130,6 +131,7 @@ main{
     margin-top: 15px;
     display: flex;
     gap: 20px;
+    margin-top: 30px;
 }
 
 .fifth .colors{
@@ -163,6 +165,7 @@ main{
 .sixth{
     position: relative;
     margin-top: 20px;
+    margin-top: 30px;
 }
 
 .detail{
@@ -182,6 +185,7 @@ main{
     margin-top: 20px;
     display: flex;
     gap: 10px;
+    margin-top: 30px;
 }
 
 .seventh hr{
@@ -290,4 +294,20 @@ main{
     transform: rotate(90deg);
     width: 50px;
     border: 1px solid rgba(0, 0, 0, 0.122);
+}
+
+.right{
+    position: absolute;
+    top: 0;
+    right: 10%;
+}
+
+.right .collect{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.collect img{
+    border-radius: 15px;
 }
