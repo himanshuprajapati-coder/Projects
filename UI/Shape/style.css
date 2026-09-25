@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #500407;
+
 }
 
 html, body {
@@ -40,7 +41,7 @@ nav{
 }
 
 main{
-    height: 70%;
+    height: 45%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -62,6 +63,7 @@ main .main-content{
 }
 
 .menu{
+    height: 150%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -85,3 +87,22 @@ main .main-content{
     object-fit: cover;
 }
 
+footer{
+    height: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .upper-footer{
+    font-size: 30px;
+}
+
+.upper-footer span{
+    color: #ad999a;
+}
+
+.lower-footer{
+    width: 27%;
+}
