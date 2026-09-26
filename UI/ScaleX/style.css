@@ -25,7 +25,7 @@ nav{
     gap: 90px;
 }
 
-button{
+.btn button{
     height: 40px;
     width: 120px;
     margin: 15px;
@@ -35,3 +35,46 @@ button{
     border: 1px solid transparent;
     font-size: 17px;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.heading h1{
+    font-size: 200px;
+}
+
+.capsule{
+    display: flex;
+    gap: 30px;
+}
+
+.capsule button{
+    /* height: 30px; */
+    width: 100px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #151515;
+    font-weight: 600;
+}
+
+.capsule button:first-child{
+    background-color: #fc470b;
+    width: 70px;
+}
+
+.image-collection{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
