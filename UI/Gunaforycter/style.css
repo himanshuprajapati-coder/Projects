@@ -7,4 +7,74 @@
 html, body {
     height: 100%;
     width: 100%;
+    background-color: #0c0a0b;
+    color: white;
 }
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .logo h1{
+    font-size: 50px;
+}
+
+main{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .drink-collection{
+    height: 50%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.drink-collection .box{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 15%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.box .image{
+    margin-top: 10px;
+}
+
+.box .name{
+    margin-top: 10px;
+}
+
+.box .description{
+    margin-top: 10px;
+}
+
+.box hr{
+    margin-top: 10px;
+    width: 10%;
+}
+
+.box .price{
+    margin-top: 10px;
+}
+
+main .special{
+    height: 50%;
+    width: 95%;
+    background-color: red;
+    margin-top: 30px;
+}
+
