@@ -7,4 +7,46 @@
 html, body {
     height: 100%;
     width: 100%;
+    background-color: #091119;
+    color: white;
+}
+
+nav{
+    padding: 10px;
+    margin: 0px 20px;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left .left-under h1{
+    font-size: 80px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-right: 300px;
+}
+
+.right button{
+    height: 40px;
+    width: 120px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: #176ec557;
+    color: white;
+    font-size: 17px;
+}
+
+main{
+    height: 65%;
+    background-color: green;
+}
+
+footer{
+    height: 20%;
+    background-color: blue;
 }
