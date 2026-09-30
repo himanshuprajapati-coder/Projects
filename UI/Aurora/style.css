@@ -42,7 +42,7 @@ nav{
 }
 
 main{
-    height: 65%;
+    height: 70%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -81,7 +81,7 @@ img{
     height: 100%;
     width: 19%;
     border-radius: 15px;
-    border: 2px solid white;
+    border: 2px solid transparent;
 }
 
 .box .image{
@@ -90,8 +90,8 @@ img{
 
 .box .text{
     height: 25%;
-    margin-left: 20px;
-    margin-top: 5px;
+    padding: 10px;
+    background-color: #1f3245;
 }
 
 .color{
@@ -116,6 +116,22 @@ img{
 
 
 footer{
-    height: 20%;
-    /* background-color: blue; */
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-up{
+    height: 60%;
+    width: 98%;
+    background-color: red;
+}
+
+footer .footer-down{
+    height: 40%;
+    width: 98%;
+    background-color: blue;
 }
