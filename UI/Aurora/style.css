@@ -127,11 +127,78 @@ footer{
 footer .footer-up{
     height: 60%;
     width: 98%;
-    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.footer-up .features-info{
+    width: 150px;
+}
+
+.footer-up hr{
+    width: 50px;
+    rotate: 90deg;
 }
 
 footer .footer-down{
     height: 40%;
     width: 98%;
-    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-down .down-left{
+    display: flex;
+    gap: 20px;
+}
+
+.down-left .copyrights{
+    width: 150px;
+}
+
+.copyrights p{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.down-left .left-logo{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.down-center .center-menu{
+    display: flex;
+    gap: 80px;
+}
+
+.down-right{
+    display: flex;
+    gap: 10px;
+}
+
+.follow p{
+    margin-top: 10px;
+}
+
+.down-right .social-icon{
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon div{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: red;
 }
