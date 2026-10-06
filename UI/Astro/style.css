@@ -37,4 +37,48 @@ nav .nav-left{
 
 section{
     display: flex;
+    padding: 15px;
+}
+
+.product-detail{
+    background-color: red;
+    margin: 15px;
+}
+
+.new{
+    width: fit-content;
+    margin: 10px;
+}
+
+.new p{
+    color: #ca6630;
+}
+
+.product-name{
+    width: 20%;
+}
+
+.product-name h1{
+    font-size: 50px;
+}
+
+
+
+.product{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-fearures{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-action{
+    background-color: green;
 }
