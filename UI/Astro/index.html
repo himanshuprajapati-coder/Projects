@@ -3,141 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astro</title>
+    <title>Astro Winter Armor II</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-left">
+    <div class="app-wrapper">
+        <nav>
             <div class="logo">
-                <h1>Astro</h1>
+                <h1>ASTRO<span>.</span></h1>
             </div>
             <div class="menu">
-                <p>Products</p>
-                <p>Category</p>
-                <p>About Us</p>
-                <p>Contact</p>
+                <a href="#">PRODUCTS</a>
+                <a href="#">CATEGORY</a>
+                <a href="#">ABOUT US</a>
+                <a href="#">CONTACT</a>
             </div>
-        </div>
-        <div class="nav-right">
-            <div class="icon">
-                <h3>Search</h3>
-                <h3>Cart</h3>
-                <h3>User</h3>
+            <div class="nav-icons">
+                <!-- Using inline SVG for accurate icons -->
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
             </div>
-        </div>
-    </nav>
-    <main>
-        <section>
-            <div class="product-detail">
-                <div class="new">
-                    <p>New</p>
+        </nav>
+
+        <main>
+            <!-- LEFT COLUMN: Product Details -->
+            <section class="product-info">
+                <div class="badge-new">NEW</div>
+                <h1 class="product-title">ASTRO<br>WINTER<br>ARMOR <span>II</span></h1>
+                <p class="product-price">$560</p>
+                
+                <div class="description-section">
+                    <h3>DESCRIPTION</h3>
+                    <p class="desc-text">A next-gen cold war jacket. The essence of retro style and the resilience you need for extreme winter conditions. Engineered to provide versatile function for your winter wardrobe, accented with strategic utility details.</p>
+                    <a href="#" class="read-more">READ MORE <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></a>
                 </div>
-                <div class="product-name">
-                    <h1>Astro Winter Armor ||</h1>
+
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <h3>MATERIAL & CARE</h3>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </div>
+                    <div class="accordion-item">
+                        <h3>SHIPPING & RETURNS</h3>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </div>
                 </div>
-                <div class="product-price">
-                    <p>$560</p>
+            </section>
+
+            <!-- CENTER COLUMN: Product Image -->
+            <section class="product-showcase">
+                <img src="assets/beige.png" alt="Main jacket" class="main-image">
+                <div class="feature-tags">
+                    <div class="tag">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5l-10 14M21 12H3M19 17L5 7"/></svg>
+                        EXTREME WARMTH
+                    </div>
+                    <div class="tag">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22V8M12 8L8 12M12 8l4 4"/></svg>
+                        WIND RESISTANT
+                    </div>
+                    <div class="tag">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 12c0 4.418-3.582 8-8 8s-8-3.582-8-8 3.582-8 8-8 8 3.582 8 8z"/></svg>
+                        LIGHTWEIGHT
+                    </div>
                 </div>
-                <hr>
-                <div class="product-description">
-                    <h3>Description</h3>
-                    <p>A next-gen cold war jacket. The essence of retro style and the resilience you need for extreme winter conditions. Engineered to provide versatile function for your winter wardrobe, accented with strategic utility details.</p>
-                    <h4>Read More</h4>
-                    <hr>
-                    <h3>Material & Care</h3>
-                    <hr>
-                    <h3>Shipping & Returns</h3>
+            </section>
+
+            <!-- RIGHT COLUMN: Actions -->
+            <section class="product-actions">
+                <div class="action-group">
+                    <h3>SIZE</h3>
+                    <div class="size-selector">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn active">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <a href="#" class="size-guide">SIZE GUIDE <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></a>
+                </div>
+
+                <hr class="divider">
+
+                <div class="action-group">
+                    <h3>COLOR</h3>
+                    <div class="color-grid">
+                        <div class="color-option active">
+                            <div class="color-thumb"><img src="assets/beige.png" alt="Beige"></div>
+                            <p>BEIGE</p>
+                        </div>
+                        <div class="color-option">
+                            <div class="color-thumb"><img src="assets/red.png" alt="Red"></div>
+                            <p>RED</p>
+                        </div>
+                        <div class="color-option">
+                            <div class="color-thumb"><img src="assets/black.png" alt="Black"></div>
+                            <p>BLACK</p>
+                        </div>
+                        <div class="color-option">
+                            <div class="color-thumb"><img src="assets/white.png" alt="White"></div>
+                            <p>WHITE</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="btn-wishlist">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                        ADD TO WISHLIST
+                    </button>
+                    <button class="btn-cart">
+                        ADD TO BAG
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <!-- BOTTOM SECTION: Details & Specs -->
+        <section class="bottom-details">
+            <div class="detail-cards">
+                <div class="card">
+                    <div class="card-img bg-gray"></div>
+                    <div class="card-text">
+                        <h4>3X<br>WATER-REPELLENT</h4>
+                        <p>The fabric repels rain, snow and moisture while keeping you dry and comfortable.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img bg-gray"></div>
+                    <div class="card-text">
+                        <h4>3D AREAS<br>PUFFERED</h4>
+                        <p>Strategically padded zones trap heat and maximize insulation without the bulk.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img bg-gray"></div>
+                    <div class="card-text">
+                        <h4>INSULATION</h4>
+                        <p>Advanced thermal filling locks in warmth up to -30°C for extreme conditions.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img bg-gray"></div>
+                    <div class="card-text">
+                        <h4>UTILITY<br>POCKETS</h4>
+                        <p>Multi-functional pockets for secure storage on the go.</p>
+                    </div>
                 </div>
             </div>
-            <div class="product">
-                <div class="product-image">
-                    <img src="assets/beige.png" alt="Main jacket" height="600">
-                </div>
-                <div class="product-fearures">
-                    <div class="feature-icon">
-                        <img src="assets/Extreme Warmth.png" alt="Extreme Warmth" height="25">
-                    </div>
-                    <div class="feature-name">
-                        <p>Extreme Warmth</p>
-                    </div>
-                    <div class="feature-icon">
-                        <img src="assets/Wind Resistant.png" alt="Wind Resistant" height="25">
-                    </div>
-                    <div class="feature-name">
-                        <p>Wind Resistant</p>
-                    </div>
-                    <div class="feature-icon">
-                        <img src="assets/Lightweight.png" alt="Lightweight" height="25">
-                    </div>
-                    <div class="feature-name">
-                        <p>Lightweight</p>
+
+            <div class="spec-icons">
+                <div class="spec">
+                    <div class="spec-icon">❄️</div>
+                    <div class="spec-info">
+                        <h4>PREMIUM FABRICS</h4>
+                        <p>Durable, high-performance materials.</p>
                     </div>
                 </div>
-            </div>
-            <div class="product-action">
-                <div class="size">
-                    <div class="size-heading">
-                        <h3>Size</h3>
-                    </div>
-                    <div class="size-box">
-                        <button>S</button>
-                        <button>M</button>
-                        <button>L</button>
-                        <button>XL</button>
-                    </div>
-                    <div class="size-guide">
-                        <p>Size Guide</p>
+                <div class="spec">
+                    <div class="spec-icon">🛡️</div>
+                    <div class="spec-info">
+                        <h4>THERMAL PROTECTION</h4>
+                        <p>Built for extreme winter climates.</p>
                     </div>
                 </div>
-                <hr>
-                <div class="color">
-                    <div class="color-heading">
-                        <h3>Color</h3>
-                    </div>
-                    <div class="colorbox">
-                        <div class="color-jacket">
-                            <img src="assets/beige.png" alt="beige color" height="100">
-                        </div>
-                        <div class="jacket-color">
-                            <p>Beige</p>
-                        </div>
-                    </div>
-                    <div class="colorbox">
-                        <div class="color-jacket">
-                            <img src="assets/red.png" alt="red color" height="100">
-                        </div>
-                        <div class="jacket-color">
-                            <p>Red</p>
-                        </div>
-                    </div>
-                    <div class="colorbox">
-                        <div class="color-jacket">
-                            <img src="assets/black.png" alt="black color" height="100">
-                        </div>
-                        <div class="jacket-color">
-                            <p>Black</p>
-                        </div>
-                    </div>
-                    <div class="colorbox">
-                        <div class="color-jacket">
-                            <img src="assets/white.png" alt="white color" height="100">
-                        </div>
-                        <div class="jacket-color">
-                            <p>White</p>
-                        </div>
+                <div class="spec">
+                    <div class="spec-icon">⚙️</div>
+                    <div class="spec-info">
+                        <h4>DESIGNED FOR FUNCTION</h4>
+                        <p>Every detail serves a purpose.</p>
                     </div>
                 </div>
-                <div class="function">
-                    <div class="wishlist">
-                        <button>Add to Wishlist</button>
-                    </div>
-                    <div class="cart">
-                        <button>Add to Bag</button>
+                <div class="spec">
+                    <div class="spec-icon">⭐</div>
+                    <div class="spec-info">
+                        <h4>LIMITED EDITION</h4>
+                        <p>Exclusive drops, limited quantities.</p>
                     </div>
                 </div>
             </div>
         </section>
-    </main>
+    </div>
 </body>
 </html>
